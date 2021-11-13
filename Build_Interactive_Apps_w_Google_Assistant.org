@@ -3,8 +3,8 @@
 #+title:Build Interactive Apps with With Google Assistant
 #+subtitle:{{{version}}} {{{date}}}
 #+author:pinecone063
-#+date:2021-11-13 07:25
-#+macro:version Version 0.0.0
+#+date:2021-11-13 07:35
+#+macro:version Version 0.0.1
 #+macro:upload-date (eval (current-time-string))
 #+bucket:pinecone-forest.com
 
@@ -17,6 +17,84 @@
 :PROPERTIES:
 :unnumbered: t
 :END:
+- https://www.cloudskillsboost.google/quests/61
+
+- 4 hours
+- Fundamental
+- 20 Credits
+
+With Google Assistant expected to be part of over a billion consumer devices by
+the end  of this  year, this Quest  teaches you how  to build  practical Google
+Assistant applications integrated with Google Cloud services via APIs.  Example
+apps will  use the Dialogflow  conversational suite  and the Actions  and Cloud
+Functions frameworks.   Over the course of  5 labs, you will  build 5 different
+applications that explore useful and fun tools  you can extend on your own.  No
+hardware required!  These  labs use the cloud-based  Google Assistant simulator
+environment for  developing and testing,  but if you  do have your  own device,
+such as a Google Home or a  Google Hub, additional instructions are provided on
+how to deploy your apps to your own hardware.
+
+#+texinfo: @heading Prerequisites
+No prerequisites required, but comfort  with Javascript and Node.js programming
+will be helpful. Students who  have completed the Baseline: Infrastructure will
+obtain a good conceptual understanding  of Cloud Functions before starting this
+Quest.
+
+#+texinfo: @heading Labs
+- Google Assistant: Qwik Start - Dialogflow
+  - https://www.cloudskillsboost.google/focuses/2196?parent=catalog
+
+  - In this lab you will learn the fundamentals of Google Assistant by building
+    a quote generator application with Actions and Dialogflow.
+
+  - 30 minutes
+  - Introductory
+  - 1 Credit
+
+- Introduction to APIs in Google
+  - https://www.cloudskillsboost.google/focuses/3473?parent=catalog
+
+  - This lab  will teach you  about the  architecture and basic  functioning of
+    Application Programming  Interfaces (APIs). This will  be supplemented with
+    hands-on  practice, where  you will  configure  and run  Cloud Storage  API
+    methods in Cloud Shell.
+
+  - 1 hour
+  - Introductory
+  - 1 Credit
+
+- Google Assistant: Build an Application with Dialogflow and Cloud Functions
+  - https://www.cloudskillsboost.google/focuses/3634?parent=catalog
+
+  - In this lab, you will build  a Google Assistant application with Dialogflow
+    and Cloud Functions for Firebase.
+
+  - 45 minutes
+  - Fundamental
+  - 5 Credits
+
+- Google Assistant: Build a Youtube Entertainment App
+  - https://www.cloudskillsboost.google/focuses/4785?parent=catalog
+
+  - In this lab,  you will build a Google Assistant  app with Dialogflow, Cloud
+    Functions, and  the Youtube API  to generate the  top music videos  for any
+    music artist.
+
+  - 1 hours
+  - Advanced
+  - 7 Credits
+
+- Google Assistant: Build a Restaurant Locator with the Places API
+  - https://www.cloudskillsboost.google/focuses/4784?parent=catalog
+
+  - In this lab you will build an  Assistant application that takes in a user's
+    location and  preferences and  passes them  to the Places  API via  a Cloud
+    Function to generate the ideal spot to eat.
+
+  - 1 hour
+  - Advanced
+  - 7 Credits
+
 * Chapter
 
 * Build Tools
